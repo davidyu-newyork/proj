@@ -8,7 +8,7 @@ export default class MainPage extends Component{
     render(){
         return(
             <div>
-                <p>hello</p>
+                <h1>Jinge Li</h1>
 
 
             </div>
