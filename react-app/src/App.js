@@ -1,11 +1,17 @@
 
-import {BrowserRouter as  Router,Route} from "react-router-dom";
-import MainPage from "./components/Main-Page.component.js";
+import {BrowserRouter as  Router,Route, Switch} from "react-router-dom";
+import MainPage from "./components/Main-Page.js";
+import Nav from "./components/Nav.js";
 
 function App() {
   return (
     <Router>
-        <Route path="/" exact component={MainPage} />
+      <Nav /> 
+      <Switch>
+
+      <Route path="/" exact component={MainPage} />
+
+      </Switch>
     </Router>
   );
 }

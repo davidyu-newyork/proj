@@ -1,0 +1,28 @@
+nav{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:  center;
+    min-height: 2;
+    max-height: 40px;
+    background: rgb(20, 20, 29);
+}
+
+.nav-container{
+    width: 95%;
+    display: flex;
+    align-items:  center;
+    justify-content:space-evenly;
+    list-style: none;
+    color: rgb(196, 196, 196);
+}
+.nav-comp{
+    width: 10%
+}
+
+.logo{
+
+    display: flex;
+    align-items:  center;
+    justify-content: space-evenly;
+
+}
