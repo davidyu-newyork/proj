@@ -8,7 +8,10 @@ export default class MainPage extends Component{
     render(){
         return(
             <div>
-                <h1>Jinge Li</h1>
+                <h1>Covid</h1>
+                <p>
+                    Pull data for specific state then display it
+                </p>
 
 
             </div>
